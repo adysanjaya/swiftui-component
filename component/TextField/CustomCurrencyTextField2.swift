@@ -11,15 +11,23 @@ struct CustomCurrencyTextField2: View {
   @State private var amount = "0"
   @State private var lastAmount = "0"
   var body: some View {
-    Text("Format %.2f: \(lastAmount)")
+    Text("Format Decimal 2 Digit: \(lastAmount)")
     TextField("Masukan Jumlah:", text: $amount)
       .textFieldStyle(.roundedBorder)
       .onChange(of: amount) { newValue in
         if lastAmount != newValue {
-          amount = String(format: "%.2f", Double(newValue) ?? 0.0)
+          amount = formattedAmount
           lastAmount = amount
         }
       }
+  }
+
+  private var formattedAmount: String {
+    let sanitize = Double(amount.filter { $0.isNumber || $0 == "." }) ?? 0.0
+    let formatter = NumberFormatter()
+    formatter.numberStyle = .decimal
+    formatter.minimumFractionDigits = 2
+    return formatter.string(from: NSNumber(value: sanitize)) ?? ""
   }
 }
 
