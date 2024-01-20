@@ -11,6 +11,12 @@
 		58E860932B5B773900A2DCEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E860922B5B773900A2DCEA /* ContentView.swift */; };
 		58E860952B5B773B00A2DCEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E860942B5B773B00A2DCEA /* Assets.xcassets */; };
 		58E860982B5B773B00A2DCEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E860972B5B773B00A2DCEA /* Preview Assets.xcassets */; };
+		58E8609F2B5B797900A2DCEA /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E8609E2B5B797900A2DCEA /* TextFieldView.swift */; };
+		58E860A32B5BC38100A2DCEA /* CustomCurrencyTextField3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E860A22B5BC38100A2DCEA /* CustomCurrencyTextField3.swift */; };
+		58E860A52B5BC56500A2DCEA /* CustomCurrencyTextField4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E860A42B5BC56500A2DCEA /* CustomCurrencyTextField4.swift */; };
+		58E860A72B5BC7F700A2DCEA /* CustomCurrencyTextField2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E860A62B5BC7F700A2DCEA /* CustomCurrencyTextField2.swift */; };
+		58E860A92B5BC84900A2DCEA /* CustomCurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E860A82B5BC84900A2DCEA /* CustomCurrencyTextField.swift */; };
+		58E860AC2B5BD49100A2DCEA /* CustomCurrencyTextField5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E860AB2B5BD49100A2DCEA /* CustomCurrencyTextField5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		58E860922B5B773900A2DCEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		58E860942B5B773B00A2DCEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58E860972B5B773B00A2DCEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58E8609E2B5B797900A2DCEA /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		58E860A22B5BC38100A2DCEA /* CustomCurrencyTextField3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurrencyTextField3.swift; sourceTree = "<group>"; };
+		58E860A42B5BC56500A2DCEA /* CustomCurrencyTextField4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurrencyTextField4.swift; sourceTree = "<group>"; };
+		58E860A62B5BC7F700A2DCEA /* CustomCurrencyTextField2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurrencyTextField2.swift; sourceTree = "<group>"; };
+		58E860A82B5BC84900A2DCEA /* CustomCurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurrencyTextField.swift; sourceTree = "<group>"; };
+		58E860AB2B5BD49100A2DCEA /* CustomCurrencyTextField5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurrencyTextField5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 		58E8608F2B5B773900A2DCEA /* component */ = {
 			isa = PBXGroup;
 			children = (
+				58E860A12B5BC34B00A2DCEA /* TextField */,
 				58E860902B5B773900A2DCEA /* componentApp.swift */,
 				58E860922B5B773900A2DCEA /* ContentView.swift */,
 				58E860942B5B773B00A2DCEA /* Assets.xcassets */,
@@ -65,6 +78,19 @@
 				58E860972B5B773B00A2DCEA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58E860A12B5BC34B00A2DCEA /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				58E8609E2B5B797900A2DCEA /* TextFieldView.swift */,
+				58E860A22B5BC38100A2DCEA /* CustomCurrencyTextField3.swift */,
+				58E860A42B5BC56500A2DCEA /* CustomCurrencyTextField4.swift */,
+				58E860A62B5BC7F700A2DCEA /* CustomCurrencyTextField2.swift */,
+				58E860A82B5BC84900A2DCEA /* CustomCurrencyTextField.swift */,
+				58E860AB2B5BD49100A2DCEA /* CustomCurrencyTextField5.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +165,12 @@
 			files = (
 				58E860932B5B773900A2DCEA /* ContentView.swift in Sources */,
 				58E860912B5B773900A2DCEA /* componentApp.swift in Sources */,
+				58E860A92B5BC84900A2DCEA /* CustomCurrencyTextField.swift in Sources */,
+				58E860A72B5BC7F700A2DCEA /* CustomCurrencyTextField2.swift in Sources */,
+				58E8609F2B5B797900A2DCEA /* TextFieldView.swift in Sources */,
+				58E860AC2B5BD49100A2DCEA /* CustomCurrencyTextField5.swift in Sources */,
+				58E860A32B5BC38100A2DCEA /* CustomCurrencyTextField3.swift in Sources */,
+				58E860A52B5BC56500A2DCEA /* CustomCurrencyTextField4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
