@@ -1,8 +1,13 @@
 # Swiftui Component TextField
-Format Currency untuk Textfield
-
-## Demo
+* Pagination with Cached Image
+* Format Currency untuk Textfield
+  
+### Demo Pagination
+![ezgif-4-4309f88a57](https://github.com/adysanjaya/swiftui-component/assets/10584249/26eac208-49a1-4f15-a88f-96a99152672a)
+### Demo Format Currency
 ![ezgif com-video-to-gif-converter](https://github.com/adysanjaya/swiftui-component/assets/10584249/bd7ab6b5-1f34-41e9-bbdd-0488850b663c)
+
+
 
 <h1 align="center">I'm Ady Sanjaya</h1>
 <h3 align="center">Hello Everyone / 大家好 👋</h3>
